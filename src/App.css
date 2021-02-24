@@ -4,6 +4,10 @@
 	text-align: left;
 }
 
+.content {
+	background: white !important;
+}
+
 .header {
 	background: white !important;
 }
@@ -19,16 +23,19 @@
 	font-weight: bold;
 	text-decoration: underline;
 	margin-bottom: 24px;
+	margin-top: 60px;
 }
 
 .rowHeader {
-	margin-left: 12px;
-	text-decoration: underline;
+	text-align: right;
+	padding-right: 60px;
+	font-style: italic;
 }
 
 .selecter {
 	min-width: 160px;
 }
+
 
 .siderHeader {
 	font-size: 150%;
